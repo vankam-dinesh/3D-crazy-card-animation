@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Testimonial Card Slider</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="text-content">
+          <h1 class="heading">
+            Join the band<br />of over<br /><span class="highlight">100K</span>
+            students
+          </h1>
+          <p class="description">
+            To part-time like a pro! Unlock your potential and start earning
+            while you learn. Join TimBuckDo today and take the first step
+            towards financial independence.
+          </p>
+        </div>
+
+        <div class="card-slider-container">
+          <div class="card-slider" id="cardSlider">
+            <div class="card active" id="card1">
+              <div
+                class="profile-pic"
+                style="background-image: url('img1.jpeg')"
+              ></div>
+              <p class="testimonial">
+                "I earned my first income through this platform—an experience
+                I'll never forget. Over the last two years, the quality of jobs
+                keeps improving, and I've become a loyal user."
+              </p>
+              <p class="name">Amisha Kumari</p>
+            </div>
+
+            <div class="card next" id="card2">
+              <div
+                class="profile-pic"
+                style="background-image: url('img2.jpeg')"
+              ></div>
+              <p class="testimonial">
+                "This platform helped me develop my skills. Now I'm confident
+                enough to take on bigger projects and near my own financial
+                goals."
+              </p>
+              <p class="name">Alex Smith</p>
+            </div>
+
+            <div class="card" id="card3">
+              <div
+                class="profile-pic"
+                style="background-image: url('img3.jpeg')"
+              ></div>
+              <p class="testimonial">
+                "I recommended this to a friend and now we both are getting gigs
+                like never before. The community is amazing. Now I'm earning
+                consistently."
+              </p>
+              <p class="name">Maya Johnson</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
